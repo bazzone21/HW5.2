@@ -7,8 +7,9 @@ let sum = (intro + git + js) / 3;
 console.log(sum);
 
 studentName = "Vladimir";
+shortName = studentName.slice(0, 1);
 studentSurname = "Petrov";
 
 console.log(
-  `Уважаемый ${studentName} ${studentSurname} Ваш средний бал равен ${sum}`
+  `Уважаемый ${shortName}. ${studentSurname} Ваш средний бал равен ${sum}`
 );
